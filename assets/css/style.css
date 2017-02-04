@@ -1,0 +1,203 @@
+body{
+	background-color: #eee;
+}
+.layout{
+	background-image: url("../images/Background.png");
+	margin: 0 auto;
+	height:650px;
+	width:960px;
+	margin-top:200px;
+	position: relative;
+	overflow: auto;
+}
+/* page layout styling ends here */
+.navbar{
+	height: 80px;
+	display:flex;
+	justify-content: space-around;
+	border:solid 1px #ccc;
+	
+}
+.navbar ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.navbar li{
+padding:20px;
+}
+.navbar h1{
+	padding:20px 15px 20px 15px;
+	margin-top:0px;
+	margin-bottom: 0px;
+	color: #fff;
+	background-color: #4aaaa5;
+}
+
+/* navbar styling ends here */
+.about{
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 600px;
+	height:400px;
+	float:left;
+	border:1px solid #ddd;
+} 
+.subHeader{
+	margin-right: 20px;
+	margin-left: 20px;
+	border-bottom: solid 2px #d3d3d3;
+	padding-bottom: 10px;
+}
+.about img{
+	margin:10px 20px 0px 20px;
+	height:200px;
+	width:150px;
+	float:left;
+	
+}
+.about p {
+	line-height: 200%
+
+}
+/* main index content styling ends here */
+.contact {
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 600px;
+	height: 450px;
+	float:left;
+	border:1px solid #ddd;
+}
+
+.contact form{
+	margin-left: 20px;
+}
+.contact h4 {
+	margin-top:0px;
+	margin-bottom: 10px;
+}
+.largeInput{
+	height: 25px;
+	width: 555px;
+}
+.largestInput {
+	height:150px;
+	width: 555px;
+
+}
+
+.submitButton{
+	height:40px;
+	width:150px;
+	color:#fff;
+	background-color: #4aaaa5;
+	margin-top: 20px;
+	margin-right:20px;
+}
+/*main contact content styling ends here*/
+.portfolio{
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 600px;
+	height:535px;
+	float:left;
+	border:1px solid #ddd;
+
+}
+.imageBoxes{
+	width:200px;
+    height: 125px;
+    background:#4aaaa5;
+    color:#fff;
+    position:relative;
+    float: left;
+    margin:10px 10px 10px 60px;
+
+}
+.imageBoxes p {
+	position:absolute;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+	padding-bottom:15px;
+	background-color:#4aaaa5;
+}
+.box1{
+	background-image: url(../images/hangman.png);
+
+	background-size: cover;
+}
+.box2{
+	background-image: url(../images/RPG.png);
+	clear:right;
+	background-size: cover;
+}
+.box3{
+	background-image: url(../images/trivia.png);
+	background-size: cover;
+}
+.box4{
+	background-image: url(../images/RIW.png);
+	background-size: cover;
+}
+.box5{
+	background-image: url(../images/RockPaper.png);
+	background-size: cover;
+}
+/*main portfolio content styling ends here*/
+.connect{
+	margin-right: 20px;
+	margin-top: 30px;
+	width: 270px;
+	height:200px;
+	float:right;
+	border:1px solid #ddd;
+}
+
+.connect img {
+	height: 50px;
+	width: 50px;
+	margin-left: 25px;
+	margin-top:20px;
+}
+.connect h2{
+	margin-right: 15px;
+	margin-left: 15px;
+	border-bottom:solid 2px #d3d3d3;
+}
+/* sidebar styling ends here */
+
+.whiteBackground{
+	background-color: #fff;
+}
+.tealColor{
+	color:#4aaaa5;
+}
+ footer{
+ 	border-top: 5px solid #4aaaa5;
+ 	display: flex;
+	background-color: #666;
+	color: #fff;
+	position:absolute;
+	bottom: 0;
+	width:100%;
+	height:60px;
+	align-items: center;
+	justify-content: center;
+	
+}
+.textColor {
+	color:#777;
+}
+/* colors end here */
+@media screen {
+	max-width:980px;
+}
+@media screen {
+	max-width:768px;
+	
+}
+@media screen {
+	max-width:640px;	
+}
